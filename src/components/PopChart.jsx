@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
+import Button from './Button';
 
 const PopChart = () => {
   const [options, setOptions] = useState({});
@@ -89,7 +90,7 @@ const PopChart = () => {
         height="450"
         width="100%"
       />
-      <button onClick={onClick}>Change</button>
+      <Button onClick={onClick} />
     </>
   );
 };
