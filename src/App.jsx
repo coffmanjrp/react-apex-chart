@@ -1,7 +1,9 @@
+import PopChart from './components/PopChart';
+
 function App() {
   return (
     <div className="container">
-      <h1>Hello</h1>
+      <PopChart />
     </div>
   );
 }
